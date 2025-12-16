@@ -1,0 +1,50 @@
+﻿# ============== VIRTUAL ENVIRONMENTS ==============
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# ============== PYTHON CACHE & COMPILED ==============
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ============== LARGE BINARY FILES ==============
+*.dll
+*.exe
+*.pdb
+*.pth
+*.bin
+*.pt
+*.h5
+*.model
+
+# ============== VECTOR STORES ==============
+data/vector_store/
+knowledge_base/pdfs/*
+
+# ============== ENVIRONMENT VARIABLES ==============
+.env
+.env.local
+.env.*.local
+
+# ============== DATABASE FILES ==============
+*.db
+*.sqlite
+*.sqlite3
+
+# ============== IDE & OS ==============
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============== LOGS & TESTS ==============
+*.log
+logs/
+.coverage
+.pytest_cache/
